@@ -2,7 +2,7 @@
 
 # Extract structured data from clinical notes using LLM prompt engineering, then build a semantic search system using sentence embeddings.
 
-# **Dataset:** 
+# Dataset: data/SYNTHETIC_MENTIONS.csv
 
 # Setup
 
@@ -19,26 +19,34 @@ os.makedirs("data", exist_ok=True)
 load_dotenv()
 
 def get_client():
-    """Initialize the LLM client based on available API keys."""
     from openai import OpenAI
 
+    # Local Ollama
+    if os.environ.get("LOCAL_LLM") == "1":
+        base = os.environ.get("OLLAMA_BASE_URL", "http://127.0.0.1:11434/v1")
+        return OpenAI(base_url=base, api_key="ollama"), "local"
+
+    # OpenRouter
     if os.environ.get("OPENROUTER_API_KEY"):
-        client = OpenAI(
+        return OpenAI(
             api_key=os.environ["OPENROUTER_API_KEY"],
             base_url="https://openrouter.ai/api/v1",
-        )
-        return client, "openrouter"
+        ), "openrouter"
 
+    # OpenAI
     if os.environ.get("OPENAI_API_KEY"):
         return OpenAI(), "openai"
 
-    raise ValueError(
-        "No API key found. Set OPENROUTER_API_KEY or OPENAI_API_KEY in .env"
-    )
+    raise ValueError("No API key found. Set LOCAL_LLM=1 (for Ollama) or set OPENROUTER_API_KEY / OPENAI_API_KEY.")
 
 def call_llm(prompt, provider, client):
     """Send a prompt to the LLM and return the response text."""
-    model = "openai/gpt-4o-mini" if provider == "openrouter" else "gpt-4o-mini"
+    if provider == "local":
+        model = "llama3.2:1b"
+    elif provider == "openrouter":
+        model = "openai/gpt-4o-mini"
+    else:
+        model = "gpt-4o-mini"
 
     kwargs = dict(
         model=model,
@@ -78,9 +86,18 @@ print(f"Columns: {list(synthetic.columns)}")
 
 print(synthetic.iloc[0])
 
-def extract_mention(text):
-    m = re.search(r"<1CUI>\s*(.*?)\s*</1CUI>", str(text), flags=re.DOTALL)
-    return m.group(1).strip() if m else None
+def extract_best_mention(text):
+    mentions = re.findall(r"<1CUI>\s*(.*?)\s*</1CUI>", str(text), flags=re.DOTALL)
+    mentions = [m.strip() for m in mentions if m and m.strip()]
+
+    if not mentions:
+        return None
+
+    # keep "word-like" mentions (letters, length>=4)
+    candidates = [m for m in mentions if re.search(r"[A-Za-z]", m) and len(m) >= 4]
+
+    # pick the longest candidate (more likely meaningful)
+    return max(candidates or mentions, key=len)
 
 def clean_text(text):
     text = re.sub(r"</?1CUI>", " ", str(text))
@@ -88,7 +105,7 @@ def clean_text(text):
     text = re.sub(r"\s+", " ", text).strip()
     return text
 
-synthetic["mention"] = synthetic["matched_output"].apply(extract_mention)
+synthetic["mention"] = synthetic["matched_output"].apply(extract_best_mention)
 synthetic["note"] = synthetic["matched_output"].apply(clean_text)
 
 # (optional) keep only rows that actually have a tagged mention
@@ -219,6 +236,9 @@ def safe_json_loads(s):
 
 client, provider = get_client()
 
+import requests
+print(requests.get("http://127.0.0.1:11434/api/tags", timeout=5).json())
+
 def extract_entities(note, client, provider, few_shot=False):
 
     prompt = build_prompt(note, few_shot=few_shot)
@@ -241,11 +261,11 @@ for i, note in enumerate(notes_p1, 1):
         print("Extraction failed")
     print()
 
-# ---- Part 1: run extraction on ~500 notes ----
+# ---- Part 1: run extraction on ~50 notes ----
 
 synth_use = synth_use.reset_index(drop=True)
 
-N_P1 = 500
+N_P1 = 50
 df_p1 = synth_use.sample(n=min(N_P1, len(synth_use)), random_state=2026).reset_index(drop=True)
 
 out_path = "outputs/extractions.jsonl"
@@ -329,11 +349,96 @@ with open(out_path, "w", encoding="utf-8") as f_jsonl, \
 print(f"Wrote JSONL: {out_path}")
 print(f"Wrote pretty file: {pretty_path}")
 
-#---- Part 2: Semantics Search ----
+#---- Part 2: Semantics Search/Embeddings ----
 
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
-model = SentenceTransformer("all-MiniLM-L6-v2", device=get_device())
-print(f"Model loaded on {get_device()}")
+# Build the search corpus from your cleaned notes
+# Keep metadata so results are interpretable
 
+import json
+
+records = []
+
+with open("outputs/extractions.jsonl", "r", encoding="utf-8") as f:
+    for line in f:
+        records.append(json.loads(line))
+
+df_extract = pd.DataFrame(records)
+
+print(df_extract.head())
+
+# Extracting diagnosis from json file created in Pt. 1
+df_extract["diagnosis"] = df_extract["extraction"].apply(
+    lambda x: x.get("diagnosis", "") if isinstance(x, dict) else ""
+)
+
+corpus = df_extract[["cui", "diagnosis", "note"]].reset_index(drop=True)
+
+N_P2 = 2000  # start small
+corpus = corpus.sample(n=min(N_P2, len(corpus)), random_state=2026).reset_index(drop=True)
+
+notes_p2 = corpus["note"].tolist()
+print(f"{len(notes_p2)} notes in search corpus")
+
+# Load embedding model (runs locally)
+embed_model = SentenceTransformer("all-MiniLM-L6-v2", device=get_device())
+print(f"Embedding model loaded on {get_device()}")
+
+
+def embed_notes(notes):
+    """
+    Encode a list of notes into embeddings.
+    Returns: numpy array (n_notes, embedding_dim)
+    """
+    return embed_model.encode(notes, show_progress_bar=True)
+
+
+def find_similar(query, corpus_df, embeddings, top_k=5):
+    """
+    Returns top_k results with CUI + mention + note snippet + score
+    """
+    query_embedding = embed_model.encode([query])  # shape (1, dim)
+
+    embeddings = np.asarray(embeddings)
+    sims = cosine_similarity(query_embedding, embeddings)[0]  # shape (n_notes,)
+
+    top_idx = sims.argsort()[::-1][:top_k]
+
+    results = []
+    for idx in top_idx:
+        row = corpus_df.iloc[idx]
+        results.append({
+            "cui": str(row["cui"]),
+            "diagnosis": "" if pd.isna(row["diagnosis"]) else str(row["diagnosis"]),
+            "score": float(sims[idx]),
+            "note_preview": str(row["note"])[:200],
+        })
+    return results
+
+
+# ---- Run Part 2 pipeline ----
+embeddings = embed_notes(notes_p2)
+print(f"Embeddings shape: {embeddings.shape}")
+
+queries = [
+    "heart attack symptoms",
+    "infectious disease with fever",
+    "respiratory illness",
+]
+
+for q in queries:
+    print(f"\nQuery: {q}")
+    results = find_similar(q, corpus, embeddings, top_k=3)
+    for i, r in enumerate(results, 1):
+        print(f"  {i}. (score: {r['score']:.3f}) CUI={r['cui']} diagnosis={r['diagnosis']}")
+        print(f"     {r['note_preview']}...")
+
+# Save one example output (like the assignment)
+os.makedirs("outputs", exist_ok=True)
+search_results = find_similar("heart attack symptoms", corpus, embeddings, top_k=5)
+with open("outputs/search_results.json", "w", encoding="utf-8") as f:
+    json.dump(search_results, f, indent=2)
+
+print(f"Saved {len(search_results)} search results to outputs/search_results.json")

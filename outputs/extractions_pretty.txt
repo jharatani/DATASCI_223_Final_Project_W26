@@ -1,1739 +1,523 @@
 --- Note 1 ---
 {
-  "diagnosis": "Ovarian cysts",
+  "diagnosis": "Osteoporotic metatarsal fracture",
   "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
+  "lab_values": {
+    "WBC": "100,000 on admission; 70,000 by discharge"
+  },
+  "confidence": 0.7
 }
 
 --- Note 2 ---
 {
-  "diagnosis": "Cytosine to adenosine mutation",
+  "diagnosis": "",
   "medications": [],
   "lab_values": {},
-  "confidence": 0.6
+  "confidence": 0.0,
+  "_raw_response": "{\n  \"diagnosis\": \"Chronic obstructive pulmonary disease\",\n  \"medications\": [],\n  \"lab_values\": {\"CPD\": \"nonsmoker; occasional alcohol consumption\"},\n  \"confidence\": 0.85\n}\n\n{\n  \"diagnosis\": \"\",\n  \"medications\": [\"(unspecified medication)\"],\n  \"lab_values\": {},\n  \"confidence\": 0.45\n}\n\n{\n  \"diagnosis\": \"Lupus\",\n  \"medications\": [],\n  \"lab_values\": {\"Lupus IgM\": \"positive\"},\n  \"confidence\": 0.7\n}\n\n{\n  \"diagnosis\": \"\",\n  \"medications\": [\"(unspecified medication)\"],\n  \"lab_values\": {},\n  \"confidence\": 0.55\n}\n\n{\n  \"diagnosis\": \"Dementia\",\n  \"medications\": [],\n  \"lab_values\": {\"Cmv IgG\": \"negative\"},\n  \"confidence\": 0.85\n}\n\n{\n  \"diagnosis\": \"\",\n  \"medications\": [\"(unspecified medication)\"],\n  \"lab_values\": {},\n  \"confidence\": 0.45\n}\n\n{\n  \"diagnosis\": \"Rheumatoid Arthritis\",\n  \"medications\": [],\n  \"lab_values\": {\"RA IgM\": \"positive\"},\n  \"confidence\": 0.7\n}\n\n{\n  \"diagnosis\": \"\",\n  \"medications\": [\"(unspecified medication)\"],\n  \"lab_values\": {},\n  \"confidence\": 0.55\n}\n\n{\n  \"diagnosis\": \"Hypothyroidism\",\n  \"medications\": [],\n  \"lab_values\": {\"Thyroid-stimulating hormone (TSH)\": \"elevated\"},\n  \"confidence\": 0.85\n}\n\n{\n  \"diagnosis\": \"\",\n  \"medications\": [\"(unspecified medication)\"],\n  \"lab_values\": {},\n  \"confidence\": 0.45\n}\n\n{\n  \"diagnosis\": \"Hyperlipidemia\",\n  \"medications\": [],\n  \"lab_values\": {\"LDL cholesterol\": \"elevated\"},\n  \"confidence\": 0.7\n}\n\n{\n  \"diagnosis\": \"\",\n  \"medications\": [\"(unspecified medication)\"],\n  \"lab_values\": {},\n  \"confidence\": 0.55\n}\n\n{\n  \"diagnosis\": \"AIDS\",\n  \"medications\": [],\n  \"lab_values\": {\""
 }
 
 --- Note 3 ---
 {
-  "diagnosis": "Cerebral infarction s/p right posterior inferior cerebral artery bypass surgery",
-  "medications": [
-    "one (1) tablet, delayed release (300 mg) PO daily for 7 days"
-  ],
-  "lab_values": {},
-  "confidence": 0.75
+  "diagnosis": "squamous cell carcinoma",
+  "medications": [],
+  "lab_values": {
+    "WBC": "100,000 on admission; 70,000 by discharge"
+  },
+  "confidence": 0.7
 }
 
 --- Note 4 ---
 {
-  "diagnosis": "Myeloma",
-  "medications": [
-    "Lenalidomide",
-    "Dexamethasone",
-    "Prophylactic antibiotics for PCP"
-  ],
+  "diagnosis": "Vaginal large cell neuroendocrine carcinoma",
+  "medications": [],
   "lab_values": {
-    "WBC": "100,000 on admission; 70,000 by discharge"
+    "WBC": "9.6, 3.87, 12.5, 35.3, 152",
+    "RBC": "3.87, 0, 3.87, 12.5, 35.3",
+    "Hgb": "12.5, 35.3, 12.5, 35.3, 12.5",
+    "Hct": "35.3, 35.3, 35.3, 35.3, 35.3",
+    "Plt": "152",
+    "CT": "152",
+    "Glucose": "102",
+    "Urea": "26",
+    "Creatinine": "0.9",
+    "Na": "140",
+    "K": "4.6",
+    "Cl": "100",
+    "HCO3": "28",
+    "APG": "10"
   },
-  "confidence": 0.75
+  "confidence": 0.7
 }
 
 --- Note 5 ---
 {
-  "diagnosis": "Pancreatic non-invasive mucinous cystadenocarcinoma",
+  "diagnosis": "Mrsa infection",
   "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
+  "lab_values": {
+    "Lymph gland infection in the left axilla": "grade 2"
+  },
+  "confidence": 0.85
 }
 
 --- Note 6 ---
 {
-  "diagnosis": "Seizures",
+  "diagnosis": "neck soft tissue necrosis",
   "medications": [],
-  "lab_values": {},
-  "confidence": 0.5
+  "lab_values": {
+    "WBC": "100,000 on admission; 70,000 by discharge"
+  },
+  "confidence": 0.7
 }
 
 --- Note 7 ---
 {
-  "diagnosis": "Adenocarcinoma of the lung",
+  "diagnosis": "HCV",
   "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
+  "lab_values": {
+    "WBC": "100,000 on admission; 70,000 by discharge"
+  },
+  "confidence": 0.7
 }
 
 --- Note 8 ---
 {
-  "diagnosis": "Scleroderma",
+  "diagnosis": "Onychotillomania",
   "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
+  "lab_values": {
+    "WBC": "100,000 on admission; 70,000 by discharge"
+  },
+  "confidence": 0.7
 }
 
 --- Note 9 ---
 {
-  "diagnosis": "Acquired epileptic aphasias",
+  "diagnosis": "thyroid nodules",
   "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
+  "lab_values": {
+    "WBC": "100,000 on admission; 70,000 by discharge"
+  },
+  "confidence": 0.7
 }
 
 --- Note 10 ---
 {
-  "diagnosis": "Minimal response of multiple myeloma",
-  "medications": [
-    "lenalidomide 50 mg",
-    "dexamethasone 4 mg daily",
-    "melphalan 2 mg/day"
-  ],
-  "lab_values": {},
-  "confidence": 0.6
+  "diagnosis": "substance abuse",
+  "medications": [],
+  "lab_values": {
+    "WBC": "100,000 on admission; 70,000 by discharge"
+  },
+  "confidence": 0.7
 }
 
 --- Note 11 ---
 {
-  "diagnosis": "",
+  "diagnosis": "Adult T-cell leukemia/lymphoma",
   "medications": [],
-  "lab_values": {},
-  "confidence": 0.4
+  "lab_values": {
+    "WBC": "100,000 on admission; 70,000 by discharge"
+  },
+  "confidence": 0.7
 }
 
 --- Note 12 ---
 {
-  "diagnosis": "Fanconi anemia, complementation group I gene mutation",
+  "diagnosis": "pneumonia",
   "medications": [],
   "lab_values": {
-    "Creatinine": "1.4",
-    "Bilirubin": "3.4"
+    "WBC": "100,000 on admission; 70,000 by discharge"
   },
-  "confidence": 0.75
+  "confidence": 0.85
 }
 
 --- Note 13 ---
 {
-  "diagnosis": "Hypertension",
+  "diagnosis": "Horse lymphoma",
   "medications": [],
-  "lab_values": {},
-  "confidence": 0.5
+  "lab_values": {
+    "WBC": "130,000; 75,000; 9"
+  },
+  "confidence": 0.7
 }
 
 --- Note 14 ---
 {
-  "diagnosis": "Duodenum and ampulla of Vater neuroendocrine tumor",
+  "diagnosis": "nephrolithiasis",
   "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
+  "lab_values": {
+    "WBC": "100,000 on admission; 70,000 by discharge"
+  },
+  "confidence": 0.7
 }
 
 --- Note 15 ---
 {
-  "diagnosis": "Coronary artery disease",
+  "diagnosis": "",
   "medications": [],
-  "lab_values": {
-    "Blood Pressure": "145/70",
-    "Heart Rate": "84.6",
-    "Oxygen Saturation": "80%"
-  },
-  "confidence": 0.75
+  "lab_values": {},
+  "confidence": 0.0,
+  "_raw_response": "{\n  \"diagnosis\": \"cardiac catheterization revealed a 90% occlusion of the left main coronary artery and a 99% occlusion of the left anterior descending coronary artery.\",\n  \"medications\": [],\n  \"lab_values\": {\"vs\": \"84.6\", \"145/70\": \"80%\"},\n  \"confidence\": 0.7\n}\n\n{\n  \"diagnosis\": \"\",\n  \"medications\": [\"(unspecified medication) 300 mg PO daily x7 days\"],\n  \"lab_values\": {},\n  \"confidence\": 0.45\n}\n\n{\n  \"diagnosis\": \"\",\n  \"medications\": [],\n  \"lab_values\": {\"WBC\": \"100,000 on admission; 70,000 by discharge\"},\n  \"confidence\": 0.55\n}"
 }
 
 --- Note 16 ---
 {
-  "diagnosis": "Chest pain",
+  "diagnosis": "hyperbilirubinemia",
   "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
+  "lab_values": {
+    "Bilirubin": "10.3; 8.5"
+  },
+  "confidence": 0.7
 }
 
 --- Note 17 ---
 {
-  "diagnosis": "Carotid artery disease",
+  "diagnosis": "pneumocystis jiroveci pneumonia",
   "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
+  "lab_values": {
+    "WBC": "100,000 on admission; 70,000 by discharge"
+  },
+  "confidence": 0.7
 }
 
 --- Note 18 ---
 {
-  "diagnosis": "arthritis, suppurative",
-  "medications": [
-    "vancomycin 500 mg bid for 4 weeks",
-    "flagyl 500 mg bid for 4 weeks",
-    "cefotaxime 2 gm qd for 4 weeks",
-    "prednisone 10 mg od for 4 weeks",
-    "meloxicam 7.5 mg qd for 4 weeks",
-    "aspirin 81 mg od",
-    "plavix 75 mg od",
-    "zocor 20 mg od",
-    "lopressor 25 mg od",
-    "lasix 20 mg od"
-  ],
+  "diagnosis": "",
+  "medications": [],
   "lab_values": {},
-  "confidence": 0.85
+  "confidence": 0.0,
+  "_raw_response": "{\n  \"diagnosis\": \"left renal mass\",\n  \"medications\": [],\n  \"lab_values\": {\"renal mass\": \"1.3 cm\"},\n  \"confidence\": 0.7\n}\n\n{\n  \"diagnosis\": \"\",\n  \"medications\": [\"(unspecified medication)\"],\n  \"lab_values\": {},\n  \"confidence\": 0.45\n}\n\n{\n  \"diagnosis\": \"hypotension\",\n  \"medications\": [],\n  \"lab_values\": {\"blood pressure\": \"hypotension\"},\n  \"confidence\": 0.55\n}\n\n{\n  \"diagnosis\": \"\",\n  \"medications\": [\"(unspecified medication)\"],\n  \"lab_values\": {},\n  \"confidence\": 0.7\n}\n\n{\n  \"diagnosis\": \"septic shock\",\n  \"medications\": [],\n  \"lab_values\": {\"blood pressure\": \"hypotension\"},\n  \"confidence\": 0.55\n}"
 }
 
 --- Note 19 ---
 {
-  "diagnosis": "Thyroid nodular carcinoma",
+  "diagnosis": "",
   "medications": [],
   "lab_values": {},
-  "confidence": 0.6
+  "confidence": 0.0,
+  "_raw_response": "{\n  \"diagnosis\": \"cardiac catheterization\",\n  \"medications\": [],\n  \"lab_values\": {\"left main coronary artery occlusion\": \"90%\", \"thyroid nodule size\": \"1.7 cm\"},\n  \"confidence\": 0.55\n}\n\n{\n  \"diagnosis\": \"\",\n  \"medications\": [\"(unspecified medication) 300 mg PO daily x7 days\"],\n  \"lab_values\": {\"WBC count on admission\": \"100,000\", \"WBC count by discharge\": \"70,000\"},\n  \"confidence\": 0.45\n}\n\n{\n  \"diagnosis\": \"\",\n  \"medications\": [],\n  \"lab_values\": {\"left thyroid lobe nodule size\": \"1.7 cm\"},\n  \"confidence\": 0.7\n}\n\n{\n  \"diagnosis\": \"breast carcinoma pn1b tnm finding v7\",\n  \"medications\": [],\n  \"lab_values\": {},\n  \"confidence\": 0.8\n}\n\n{\n  \"diagnosis\": \"thyroid nodule\",\n  \"medications\": [\"(unspecified medication)\"],\n  \"lab_values\": {\"left thyroid lobe nodule size\": \"1.7 cm\"},\n  \"confidence\": 0.6\n}\n\n{\n  \"diagnosis\": \"colonoscopy\",\n  \"medications\": [],\n  \"lab_values\": {\"ascending colon polyp size\": \"1.5 cm\"},\n  \"confidence\": 0.9\n}"
 }
 
 --- Note 20 ---
 {
-  "diagnosis": "Anemia of unknown etiology",
-  "medications": [],
+  "diagnosis": "psychosis",
+  "medications": [
+    "risperidone",
+    "zyprexa",
+    "trazadone",
+    "celexa",
+    "lithium",
+    "lamictal"
+  ],
   "lab_values": {
-    "HCT": "23.2",
-    "HGB": "8.9",
-    "WBC": "4.0"
+    "white blood cell count": "100,000 on admission; 70,000 by discharge"
   },
-  "confidence": 0.75
+  "confidence": 0.95
 }
 
 --- Note 21 ---
 {
-  "diagnosis": "Metastatic squamous cell carcinoma",
+  "diagnosis": "",
   "medications": [],
   "lab_values": {},
-  "confidence": 0.6
+  "confidence": 0.0,
+  "_raw_response": "{\n  \"diagnosis\": \"pneumonia\",\n  \"medications\": [],\n  \"lab_values\": {\"white blood cell count\": \"100,000 on admission; 70,000 by discharge\"},\n  \"confidence\": 0.7\n}\n\n{\n  \"diagnosis\": \"\",\n  \"medications\": [\"(unspecified medication)\"],\n  \"lab_values\": {},\n  \"confidence\": 0.45\n}\n\n{\n  \"diagnosis\": \"\",\n  \"medications\": [],\n  \"lab_values\": {\"WBC\": \"100,000 on admission; 70,000 by discharge\"},\n  \"confidence\": 0.55\n}"
 }
 
 --- Note 22 ---
 {
-  "diagnosis": "Moderate to large consolidation of the right lower lobe",
+  "diagnosis": "primary unilateral adrenal hyperplasia",
   "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
+  "lab_values": {
+    "24 hour urine aldosterone/creatinine ratio": "200:1",
+    "plasma aldosterone": "11.6 ng/dl",
+    "plasma renin": "0.3 ng/ml",
+    "plasma potassium": "3.7 mg/dl",
+    "plasma aldosterone/renin ratio": "36.7",
+    "adrenal venous sampling": "7.8 ng/dl (right) and 1.3 ng/dl (left)",
+    "24 hour urine sodium": "150 meq/l",
+    "24 hour urine potassium": "15 meq/l",
+    "24 hour urine creatinine": "1.3 mg/dl"
+  },
+  "confidence": 0.7
 }
 
 --- Note 23 ---
 {
-  "diagnosis": "Recurrent parotid gland carcinoma",
+  "diagnosis": "",
   "medications": [],
   "lab_values": {},
-  "confidence": 0.6
+  "confidence": 0.0,
+  "_raw_response": "{\n  \"diagnosis\": \"Chronic obstructive pulmonary disease\",\n  \"medications\": [],\n  \"lab_values\": {\"CO2 levels\": \"35-45 mmHg\"},\n  \"confidence\": 0.85\n}\n\n{\n  \"diagnosis\": \"\",\n  \"medications\": [\"(unspecified medication)\"],\n  \"lab_values\": {},\n  \"confidence\": 0.55\n}\n\n{\n  \"diagnosis\": \"Isaac syndrome\",\n  \"medications\": [],\n  \"lab_values\": {\"Hemoglobin A1c\": \"7.5%\"},\n  \"confidence\": 0.9\n}\n\n{\n  \"diagnosis\": \"\",\n  \"medications\": [\"(unspecified medication)\"],\n  \"lab_values\": {},\n  \"confidence\": 0.45\n}\n\n{\n  \"diagnosis\": \"Hypothyroidism\",\n  \"medications\": [],\n  \"lab_values\": {\"TSH\": \"4.5 mU/L\"},\n  \"confidence\": 0.8\n}\n\n{\n  \"diagnosis\": \"\",\n  \"medications\": [\"(unspecified medication)\"],\n  \"lab_values\": {},\n  \"confidence\": 0.7\n}\n\n{\n  \"diagnosis\": \"Hyperlipidemia\",\n  \"medications\": [],\n  \"lab_values\": {\"LDL cholesterol\": \"180 mg/dL\"},\n  \"confidence\": 0.9\n}\n\n{\n  \"diagnosis\": \"\",\n  \"medications\": [\"(unspecified medication)\"],\n  \"lab_values\": {},\n  \"confidence\": 0.65\n}\n\n{\n  \"diagnosis\": \"Chronic renal failure\",\n  \"medications\": [],\n  \"lab_values\": {\"Creatinine\": \"1.2 mg/dL\"},\n  \"confidence\": 0.85\n}\n\n{\n  \"diagnosis\": \"\",\n  \"medications\": [\"(unspecified medication)\"],\n  \"lab_values\": {},\n  \"confidence\": 0.6\n}\n\n{\n  \"diagnosis\": \"Hypocalcemia\",\n  \"medications\": [],\n  \"lab_values\": {\"Calcium levels\": \"8.5 mg/dL\"},\n  \"confidence\": 0.7\n}\n\n{\n  \"diagnosis\": \"\",\n  \"medications\": [\"(unspecified medication)\"],\n  \"lab_values\": {},\n  \"confidence\": 0.65\n}\n\n{\n  \"diagnosis\": \"Hypertension\",\n  \""
 }
 
 --- Note 24 ---
 {
-  "diagnosis": "B-lymphoblastic leukemia/lymphoma with t(9;22)(q34;q11.2); bcr-abl1",
+  "diagnosis": "b-lymphoblastic leukemia/lymphoma",
   "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
+  "lab_values": {
+    "white blood cell count": "100,000 on admission; 70,000 by discharge"
+  },
+  "confidence": 0.7
 }
 
 --- Note 25 ---
 {
-  "diagnosis": "Renal cell carcinoma",
+  "diagnosis": "",
   "medications": [],
   "lab_values": {},
-  "confidence": 0.6
+  "confidence": 0.0,
+  "_raw_response": "{\n  \"diagnosis\": \"Uterine fibroids\",\n  \"medications\": [],\n  \"lab_values\": {},\n  \"confidence\": 0.55\n}\n\n{\n  \"diagnosis\": \"\",\n  \"medications\": [\"(unspecified medication) 300 mg PO daily x7 days\"],\n  \"lab_values\": {},\n  \"confidence\": 0.45\n}\n\n{\n  \"diagnosis\": \"\",\n  \"medications\": [],\n  \"lab_values\": {\"WBC\": \"100,000 on admission; 70,000 by discharge\"},\n  \"confidence\": 0.7\n}"
 }
 
 --- Note 26 ---
 {
-  "diagnosis": "HIV-1",
+  "diagnosis": "anaplastic oligodendroglioma",
   "medications": [],
   "lab_values": {
-    "HIV-1 genotype": "1",
-    "HIV-1 mutations": "T124A, M46I, G110V, K103R, A139G, M142I, K143R, K143Q",
-    "HIV-1 drug resistance": "no evidence of HIV-1 drug resistance",
-    "temperature": "97.9",
-    "blood pressure": "114/71",
-    "heart rate": "84",
-    "respiratory rate": "18",
-    "oxygen saturation": "99% RA"
+    "pH": "7.35; 5.25-8.0"
   },
-  "confidence": 0.6
+  "confidence": 0.85
 }
 
 --- Note 27 ---
 {
-  "diagnosis": "Unresectable gastroesophageal junction adenocarcinoma",
-  "medications": [
-    "Proton pump inhibitors",
-    "Antacids",
-    "Fentanyl",
-    "Ondansetron"
-  ],
+  "diagnosis": "",
+  "medications": [],
   "lab_values": {},
-  "confidence": 0.75
+  "confidence": 0.0,
+  "_raw_response": "{\n  \"diagnosis\": \"coronary artery disease\",\n  \"medications\": [],\n  \"lab_values\": {\"HbA1c\": \"7.5%\"},\n  \"confidence\": 0.8\n}\n\n{\n  \"diagnosis\": \"\",\n  \"medications\": [\"(unspecified medication)\"],\n  \"lab_values\": {},\n  \"confidence\": 0.45\n}\n\n{\n  \"diagnosis\": \"pt was admitted to the for evaluation of fever and leukocytosis\",\n  \"medications\": [],\n  \"lab_values\": {\"WBC\": \"11.7\"},\n  \"confidence\": 0.7\n}"
 }
 
 --- Note 28 ---
 {
-  "diagnosis": "Diffuse large B-cell lymphoma",
-  "medications": [
-    "R-CHOP chemotherapy"
-  ],
-  "lab_values": {},
-  "confidence": 0.8
+  "diagnosis": "pancreaticobiliary malunion",
+  "medications": [],
+  "lab_values": {
+    "WBC": "100,000 on admission; 70,000 by discharge"
+  },
+  "confidence": 0.7
 }
 
 --- Note 29 ---
 {
-  "diagnosis": "Small right pleural effusion",
-  "medications": [
-    "IVF",
-    "Vanco"
-  ],
+  "diagnosis": "Thoracotomy and repair of sternal wound",
+  "medications": [],
   "lab_values": {
-    "WBC": "12.2",
-    "Hgb": "13.9",
-    "Hct": "42.3",
-    "Plts": "304",
-    "Glucose": "162",
-    "BUN": "14",
-    "Creatinine": "1.0",
-    "Sodium": "138",
-    "Potassium": "4.1",
-    "Chloride": "1"
+    "Pericardial space and mediastinum": "large amount of air"
   },
-  "confidence": 0.75
+  "confidence": 0.7
 }
 
 --- Note 30 ---
 {
-  "diagnosis": "Chronic obstructive pulmonary disease",
+  "diagnosis": "",
   "medications": [],
   "lab_values": {},
-  "confidence": 0.6
+  "confidence": 0.0,
+  "_raw_response": "{\n  \"diagnosis\": \"pulmonic valve replacement\",\n  \"medications\": [],\n  \"lab_values\": {\"BP\": \"120/70\"},\n  \"confidence\": 0.7\n}\n\n{\n  \"diagnosis\": \"\",\n  \"medications\": [\"(unspecified medication)\"],\n  \"lab_values\": {},\n  \"confidence\": 0.45\n}\n\n{\n  \"diagnosis\": \"\",\n  \"medications\": [],\n  \"lab_values\": {\"WBC\": \"100,000 on admission; 70,000 by discharge\"},\n  \"confidence\": 0.55\n}"
 }
 
 --- Note 31 ---
 {
-  "diagnosis": "Melanoma",
-  "medications": [
-    "IV antibiotics"
-  ],
+  "diagnosis": "",
+  "medications": [],
   "lab_values": {},
-  "confidence": 0.6
+  "confidence": 0.0,
+  "_raw_response": "{\n  \"diagnosis\": \"cardiothoracic history\",\n  \"medications\": [],\n  \"lab_values\": {\"TSH\": \"elevated\", \"thyroid function\": \"abnormal\"},\n  \"confidence\": 0.7\n}\n\n{\n  \"diagnosis\": \"\",\n  \"medications\": [\"(unspecified medication)\"],\n  \"lab_values\": {},\n  \"confidence\": 0.45\n}\n\n{\n  \"diagnosis\": \"\",\n  \"medications\": [],\n  \"lab_values\": {\"WBC\": \"100,000 on admission; 70,000 by discharge\"},\n  \"confidence\": 0.7\n}\n\n{\n  \"diagnosis\": \"hypothyroidism\",\n  \"medications\": [\"(unspecified medication)\"],\n  \"lab_values\": {},\n  \"confidence\": 0.55\n}"
 }
 
 --- Note 32 ---
 {
-  "diagnosis": "Hypertension",
-  "medications": [
-    "plavix",
-    "lovenox"
-  ],
-  "lab_values": {},
-  "confidence": 0.6
+  "diagnosis": "pulmonary embolus",
+  "medications": [],
+  "lab_values": {
+    "WBC": "100,000 on admission; 70,000 by discharge"
+  },
+  "confidence": 0.7
 }
 
 --- Note 33 ---
 {
-  "diagnosis": "Lung cancer (stage 1b) with left lower lobe mass and postoperative pneumonia",
-  "medications": [
-    "vancomycin",
-    "ceftriaxone"
-  ],
-  "lab_values": {},
-  "confidence": 0.6
+  "diagnosis": "Osteogenesis imperfecta",
+  "medications": [],
+  "lab_values": {
+    "WBC": "100,000 on admission; 70,000 by discharge"
+  },
+  "confidence": 0.7
 }
 
 --- Note 34 ---
 {
-  "diagnosis": "Hypertension",
+  "diagnosis": "Osteoarthritis",
   "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
+  "lab_values": {
+    "WBC": "100,000 on admission; 70,000 by discharge"
+  },
+  "confidence": 0.7
 }
 
 --- Note 35 ---
 {
-  "diagnosis": "Metastatic adenocarcinoma",
+  "diagnosis": "Liver cancer",
   "medications": [],
   "lab_values": {
-    "Liver mass size": "7.6 cm left lobe mass; 1.5 cm nodule in right lobe",
-    "Mitotic rate": "3+",
-    "Necrosis": "1+",
-    "Vascular invasion": "1+"
+    "Liver mass": "7.6 cm left lobe mass; 1.5 cm nodule in right lobe"
   },
-  "confidence": 0.8
+  "confidence": 0.95
 }
 
 --- Note 36 ---
 {
-  "diagnosis": "Severe expressive language delay",
+  "diagnosis": "head injury",
   "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
+  "lab_values": {
+    "contrast sensitivity": "[**unknown value**]"
+  },
+  "confidence": 0.7
 }
 
 --- Note 37 ---
 {
-  "diagnosis": "Breast cancer with mixed mutations",
+  "diagnosis": "Cervicitis",
   "medications": [
-    "tamoxifen"
+    "(unspecified medication) 1000 mg PO daily",
+    "(unspecified medication) 1000 mg PO daily"
   ],
   "lab_values": {
-    "ultrasound of right breast": "2.1 cm mass in the lower"
+    "WBC": "100,000 on admission; 70,000 by discharge"
   },
-  "confidence": 0.65
+  "confidence": 0.7
 }
 
 --- Note 38 ---
 {
-  "diagnosis": "Right basal ganglia infarction",
+  "diagnosis": "",
   "medications": [],
   "lab_values": {},
-  "confidence": 0.6
+  "confidence": 0.0,
+  "_raw_response": "{\n  \"diagnosis\": \"Uterine fibroids\",\n  \"medications\": [],\n  \"lab_values\": {},\n  \"confidence\": 0.55\n}\n\n{\n  \"diagnosis\": \"\",\n  \"medications\": [\"(unspecified medication) 300 mg PO daily x7 days\"],\n  \"lab_values\": {},\n  \"confidence\": 0.45\n}\n\n{\n  \"diagnosis\": \"\",\n  \"medications\": [],\n  \"lab_values\": {\"WBC\": \"100,000 on admission; 70,000 by discharge\"},\n  \"confidence\": 0.7\n}"
 }
 
 --- Note 39 ---
 {
-  "diagnosis": "",
+  "diagnosis": "Cerebral infarction",
   "medications": [],
-  "lab_values": {},
-  "confidence": 0.4
+  "lab_values": {
+    "pupil": "{\"right\": \"cn iii pupil\", \"upper eyelid\": \"extra ocular movements neuropathy\"}",
+    "brain MRI": "{\"small infarction in the right posterior inferior temporal lobe}\""
+  },
+  "confidence": 0.85
 }
 
 --- Note 40 ---
 {
-  "diagnosis": "Seizures",
+  "diagnosis": "recurrent malignant pharyngeal neoplasm",
   "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
+  "lab_values": {
+    "WBC": "100,000 on admission; 70,000 by discharge"
+  },
+  "confidence": 0.7
 }
 
 --- Note 41 ---
 {
-  "diagnosis": "Stage I colorectal cancer",
+  "diagnosis": "",
   "medications": [],
   "lab_values": {},
-  "confidence": 0.8
+  "confidence": 0.0,
+  "_raw_response": "{\n  \"diagnosis\": \"osteoporosis\",\n  \"medications\": [],\n  \"lab_values\": {\"WBC\": \"100,000 on admission; 70,000 by discharge\"},\n  \"confidence\": 0.7\n}\n\n{\n  \"diagnosis\": \"\",\n  \"medications\": [\"(unspecified medication) 300 mg PO daily x7 days\"],\n  \"lab_values\": {},\n  \"confidence\": 0.45\n}\n\n{\n  \"diagnosis\": \"\",\n  \"medications\": [],\n  \"lab_values\": {\"WBC\": \"100,000 on admission; 70,000 by discharge\"},\n  \"confidence\": 0.55\n}"
 }
 
 --- Note 42 ---
 {
-  "diagnosis": "Adenoma, thyroid, follicular, papillary",
+  "diagnosis": "svd",
   "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
+  "lab_values": {
+    "svd": "unknown",
+    "fever": "unknown",
+    "vomiting": "unknown",
+    "diarrhea": "unknown",
+    "headache": "unknown",
+    "myalgias": "unknown"
+  },
+  "confidence": 0.2
 }
 
 --- Note 43 ---
 {
-  "diagnosis": "Subacute thyroiditis",
-  "medications": [
-    "Levothyroxine",
-    "Steroids"
-  ],
-  "lab_values": {},
-  "confidence": 0.75
+  "diagnosis": "Non-Hodgkin's lymphoma",
+  "medications": [],
+  "lab_values": {
+    "Vital signs": "{\"T\":97.6,\"HR\":80}",
+    "Laboratory values": "{\"WBC\":100,000 on admission; 70,000 by discharge}"
+  },
+  "confidence": 0.7
 }
 
 --- Note 44 ---
 {
-  "diagnosis": "Hypertension",
-  "medications": [
-    "(unspecified medication) 1 tablet PO bid"
-  ],
+  "diagnosis": "",
+  "medications": [],
   "lab_values": {},
-  "confidence": 0.75
+  "confidence": 0.0,
+  "_raw_response": "{\n  \"diagnosis\": \"Chiari malformation\",\n  \"medications\": [],\n  \"lab_values\": {\"HbA1c\": \"7.5%\", \"...\"},\n  \"confidence\": 0.65\n}\n\n{\n  \"diagnosis\": \"\",\n  \"medications\": [\"(unspecified medication) 300 mg PO daily x7 days\"],\n  \"lab_values\": {},\n  \"confidence\": 0.45\n}\n\n{\n  \"diagnosis\": \"\",\n  \"medications\": [],\n  \"lab_values\": {\"WBC\": \"100,000 on admission; 70,000 by discharge\"},\n  \"confidence\": 0.7\n}"
 }
 
 --- Note 45 ---
 {
-  "diagnosis": "Right sided weakness and paralysis due to small left sided cerebral infarct and right sided cerebral infarct",
+  "diagnosis": "Periodic paralysis",
   "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
+  "lab_values": {
+    "White blood cell count": "100,000 on admission; 70,000 by discharge"
+  },
+  "confidence": 0.7
 }
 
 --- Note 46 ---
 {
-  "diagnosis": "Chronic lymphocytic leukemia",
+  "diagnosis": "Ovarian tumor",
   "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
+  "lab_values": {
+    "WBC": "100,000 on admission; 70,000 by discharge"
+  },
+  "confidence": 0.7
 }
 
 --- Note 47 ---
 {
-  "diagnosis": "",
+  "diagnosis": "no evidence of recurrent salivary duct carcinoma",
   "medications": [],
-  "lab_values": {},
-  "confidence": 0.4
+  "lab_values": {
+    "salivary duct carcinoma": "none"
+  },
+  "confidence": 0.7
 }
 
 --- Note 48 ---
 {
-  "diagnosis": "History of colon cancer and high grade dysplasia",
+  "diagnosis": "",
   "medications": [],
   "lab_values": {},
-  "confidence": 0.6
+  "confidence": 0.0,
+  "_raw_response": "{\n  \"diagnosis\": \"Chronic Renal Failure\",\n  \"medications\": [],\n  \"lab_values\": {\"Hypertension\": \"130/90 mmHg\"},\n  \"confidence\": 0.95\n}\n\n{\n  \"diagnosis\": \"\",\n  \"medications\": [\"(unspecified medication) 300 mg PO daily x7 days\"],\n  \"lab_values\": {},\n  \"confidence\": 0.45\n}\n\n{\n  \"diagnosis\": \"Methylmalonic Aacademia\",\n  \"medications\": [],\n  \"lab_values\": {\"WBC\": \"100,000 on admission; 70,000 by discharge\"},\n  \"confidence\": 0.7\n}"
 }
 
 --- Note 49 ---
 {
-  "diagnosis": "Grade 3 reversible posterior leukoencephalopathy syndrome",
+  "diagnosis": "",
   "medications": [],
   "lab_values": {},
-  "confidence": 0.6
+  "confidence": 0.0,
+  "_raw_response": "{\n  \"diagnosis\": \"Pelvic pain\",\n  \"medications\": [],\n  \"lab_values\": {\"Pelvic pain\": \"unknown\", \"...\"},\n  \"confidence\": 0.7\n}\n\n{\n  \"diagnosis\": \"\",\n  \"medications\": [\"(unspecified medication)\"],\n  \"lab_values\": {},\n  \"confidence\": 0.45\n}\n\n{\n  \"diagnosis\": \"\",\n  \"medications\": [],\n  \"lab_values\": {\"Pelvic soft tissue necrosis\": \"unknown\", \"...\"},\n  \"confidence\": 0.55\n}\n\n{\n  \"diagnosis\": \"Cervical dysplasia\",\n  \"medications\": [],\n  \"lab_values\": {},\n  \"confidence\": 0.7\n}\n\n{\n  \"diagnosis\": \"\",\n  \"medications\": [\"(unspecified medication)\"],\n  \"lab_values\": {\"Pelvic soft tissue necrosis\": \"unknown\", \"...\"},\n  \"confidence\": 0.45\n}\n\n{\n  \"diagnosis\": \"Cervical stenosis\",\n  \"medications\": [],\n  \"lab_values\": {},\n  \"confidence\": 0.7\n}"
 }
 
 --- Note 50 ---
 {
-  "diagnosis": "CVA",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.5
-}
-
---- Note 51 ---
-{
-  "diagnosis": "Mevalonic aciduria",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 52 ---
-{
-  "diagnosis": "Grade 2 esophagitis",
-  "medications": [
-    "low dose of PPI"
-  ],
-  "lab_values": {
-    "Blood Pressure": "189/78",
-    "Heart Rate": "110",
-    "Respiratory Rate": "18",
-    "Oxygen Saturation": "96% on room air"
-  },
-  "confidence": 0.75
-}
-
---- Note 53 ---
-{
-  "diagnosis": "Fever",
-  "medications": [
-    "antibiotics"
-  ],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 54 ---
-{
-  "diagnosis": "Right clavicle fracture",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 55 ---
-{
-  "diagnosis": "Metastatic malignant testicular germ cell tumor",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.8
-}
-
---- Note 56 ---
-{
-  "diagnosis": "Pregnancy of 35 weeks",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 57 ---
-{
-  "diagnosis": "Pulmonary artery thrombosis",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 58 ---
-{
-  "diagnosis": "Anthrax exposure",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 59 ---
-{
-  "diagnosis": "Possible spermatic cord obstruction",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 60 ---
-{
-  "diagnosis": "Right chest/abdominal pain",
-  "medications": [
-    "pain medication",
-    "antibiotics",
-    "stool softener"
-  ],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 61 ---
-{
-  "diagnosis": "",
-  "medications": [
-    "vancomycin 3000 mg",
-    "flagyl 1000 mg",
-    "protonix"
-  ],
-  "lab_values": {
-    "WBC": "elevated"
-  },
-  "confidence": 0.6
-}
-
---- Note 62 ---
-{
-  "diagnosis": "Parana hard-skin syndrome",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.5
-}
-
---- Note 63 ---
-{
-  "diagnosis": "Diverticulosis",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.5
-}
-
---- Note 64 ---
-{
-  "diagnosis": "Worsening abdominal pain and vomiting",
-  "medications": [
-    "ibuprofen",
-    "acetaminophen"
-  ],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 65 ---
-{
-  "diagnosis": "Asymmetric abdominal aortic aneurysm",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 66 ---
-{
-  "diagnosis": "Penile squamous cell carcinoma, usual type",
-  "medications": [
-    "Radiation therapy"
-  ],
-  "lab_values": {},
-  "confidence": 0.8
-}
-
---- Note 67 ---
-{
-  "diagnosis": "",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.3
-}
-
---- Note 68 ---
-{
-  "diagnosis": "Cerebral infarction",
-  "medications": [
-    "(unspecified medication) 1 tablet PO daily"
-  ],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 69 ---
-{
-  "diagnosis": "Vitreous hemorrhage",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 70 ---
-{
-  "diagnosis": "Mucinous adenocarcinoma of the colon",
-  "medications": [
-    "(unspecified medication) 1 capsule PO bid for 30 days"
-  ],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 71 ---
-{
-  "diagnosis": "Neuroendocrine tumor of the duodenum and ampulla of Vater",
-  "medications": [
-    "Yttrium-90 2.5 mCi for hepatic artery infusion"
-  ],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 72 ---
-{
-  "diagnosis": "Post-vaccination rubella",
+  "diagnosis": "carcinoma of the left eyelid",
   "medications": [],
   "lab_values": {
-    "IgM rubella antibody test": "negative"
+    "white blood cell count": "100,000 on admission; 70,000 by discharge"
   },
-  "confidence": 0.6
-}
-
---- Note 73 ---
-{
-  "diagnosis": "Recurrent follicular lymphoma",
-  "medications": [
-    "iv acyclovir",
-    "fluconazole",
-    "iv methotrexate",
-    "iv trimethoprim-sulfamethoxazole",
-    "iv voriconazole",
-    "r-chop chemotherapy"
-  ],
-  "lab_values": {},
-  "confidence": 0.75
-}
-
---- Note 74 ---
-{
-  "diagnosis": "Hyperparathyroidism",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 75 ---
-{
-  "diagnosis": "Cerebral edema",
-  "medications": [
-    "(unspecified medication) 1 capsule PO bid for 4 weeks"
-  ],
-  "lab_values": {},
-  "confidence": 0.75
-}
-
---- Note 76 ---
-{
-  "diagnosis": "",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.4
-}
-
---- Note 77 ---
-{
-  "diagnosis": "Adenocarcinoma of the prostate",
-  "medications": [
-    "(unspecified medication) 1 tablet PO bid for 6 months"
-  ],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 78 ---
-{
-  "diagnosis": "Oropharyngeal carcinoma (p16-negative)",
-  "medications": [
-    "(unspecified medication) 1 tablet PO daily"
-  ],
-  "lab_values": {},
-  "confidence": 0.65
-}
-
---- Note 79 ---
-{
-  "diagnosis": "Cleft lip and palate",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 80 ---
-{
-  "diagnosis": "Mild mitral regurgitation",
-  "medications": [],
-  "lab_values": {
-    "Mitral valve area": "1.8 cm2"
-  },
-  "confidence": 0.6
-}
-
---- Note 81 ---
-{
-  "diagnosis": "Congenital epilepsy",
-  "medications": [
-    "(multiple unspecified medications) for seizure control",
-    "ketogenic diet"
-  ],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 82 ---
-{
-  "diagnosis": "Cutaneous squamous cell carcinoma of the left upper lip",
-  "medications": [
-    "(unspecified medication) 20 tablets"
-  ],
-  "lab_values": {},
-  "confidence": 0.75
-}
-
---- Note 83 ---
-{
-  "diagnosis": "grade 5 vagus nerve disorder",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 84 ---
-{
-  "diagnosis": "Chronic obstructive pulmonary disease",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 85 ---
-{
-  "diagnosis": "Acute megakaryoblastic leukemia with NUP98-KDM5A",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 86 ---
-{
-  "diagnosis": "Cystic colon",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 87 ---
-{
-  "diagnosis": "Clark level 5 melanoma",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 88 ---
-{
-  "diagnosis": "Grade 3 rectal perforation",
-  "medications": [
-    "IV antibiotics"
-  ],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 89 ---
-{
-  "diagnosis": "Cardiac malignant fibrous histiocytoma",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.8
-}
-
---- Note 90 ---
-{
-  "diagnosis": "Thyroid cancer",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 91 ---
-{
-  "diagnosis": "Neoplasm, lung",
-  "medications": [
-    "(unspecified medication) 1 tablet PO daily x14 days"
-  ],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 92 ---
-{
-  "diagnosis": "Pneumothorax",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 93 ---
-{
-  "diagnosis": "Aortic valve stenosis",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 94 ---
-{
-  "diagnosis": "Cerebellar ataxia, peripheral neuropathy, pyramidal tract signs",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 95 ---
-{
-  "diagnosis": "Recurrent tumor",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 96 ---
-{
-  "diagnosis": "CTCAE grade 3 testes stricture/stenosis",
-  "medications": [
-    "vancomycin"
-  ],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 97 ---
-{
-  "diagnosis": "Chronic back pain and neurological symptoms",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 98 ---
-{
-  "diagnosis": "Pericardial synovial sarcoma",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 99 ---
-{
-  "diagnosis": "Left ventricular ejection fraction of 10%",
-  "medications": [],
-  "lab_values": {
-    "Pulmonary artery systolic pressure": "100 mmHg"
-  },
-  "confidence": 0.6
-}
-
---- Note 100 ---
-{
-  "diagnosis": "Chronic liver disease secondary to portal hypertension",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 101 ---
-{
-  "diagnosis": "Abdominal pain",
-  "medications": [],
-  "lab_values": {
-    "Liver enzymes": "elevated"
-  },
-  "confidence": 0.6
-}
-
---- Note 102 ---
-{
-  "diagnosis": "Borderline ovarian endometrioid adenofibroma",
-  "medications": [],
-  "lab_values": {
-    "Left ovarian cyst": "5.5 x 3.8 x 3.5 cm",
-    "Right adnexal mass": "1.6 x 1.4 x",
-    "Free fluid in the cul de sac": "small amount"
-  },
-  "confidence": 0.6
-}
-
---- Note 103 ---
-{
-  "diagnosis": "Grade 5 neonatal hypotension",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 104 ---
-{
-  "diagnosis": "Gingival overgrowths",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.5
-}
-
---- Note 105 ---
-{
-  "diagnosis": "Chronic obstructive pulmonary disease and hyperplasias of the liver",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 106 ---
-{
-  "diagnosis": "Rheumatoid arthritis, acute appendicitis, subluxation of the small joints of the hand, hypothyroidism",
-  "medications": [
-    "prednisone",
-    "plaquenil",
-    "methotrexate",
-    "levothyroxine"
-  ],
-  "lab_values": {},
-  "confidence": 0.8
-}
-
---- Note 107 ---
-{
-  "diagnosis": "Adult mixed glioma",
-  "medications": [
-    "IV fluids"
-  ],
-  "lab_values": {},
-  "confidence": 0.75
-}
-
---- Note 108 ---
-{
-  "diagnosis": "Cutaneous lymphoma, leg type, likely primary cutaneous diffuse large b-cell lymphoma, leg type",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 109 ---
-{
-  "diagnosis": "Septicemia",
-  "medications": [
-    "lasix",
-    "dilantin",
-    "zoloft",
-    "zomax",
-    "oxycodone/acetaminophen"
-  ],
-  "lab_values": {},
-  "confidence": 0.8
-}
-
---- Note 110 ---
-{
-  "diagnosis": "History of XYLT1-CDG",
-  "medications": [
-    "Prophylactic regimen for pneumocystis pneumonia",
-    "Units of PRBCs"
-  ],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 111 ---
-{
-  "diagnosis": "Mildly degenerative spondylosis",
-  "medications": [
-    "PCA pain pump for pain control"
-  ],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 112 ---
-{
-  "diagnosis": "Phlebitis/thrombosis",
-  "medications": [
-    "Coumadin",
-    "TPN"
-  ],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 113 ---
-{
-  "diagnosis": "Acute MI",
-  "medications": [
-    "Heparin",
-    "Aspirin",
-    "Levofloxacin",
-    "Levothyroxine"
-  ],
-  "lab_values": {
-    "Platelet count": "low",
-    "Hemoglobin": "low"
-  },
-  "confidence": 0.8
-}
-
---- Note 114 ---
-{
-  "diagnosis": "Peripheral vascular disease",
-  "medications": [],
-  "lab_values": {
-    "Right common iliac artery stenosis": "70%",
-    "Left common iliac artery stenosis": "60%"
-  },
-  "confidence": 0.75
-}
-
---- Note 115 ---
-{
-  "diagnosis": "Rabbit oral cavity squamous cell carcinoma",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 116 ---
-{
-  "diagnosis": "CTCAE grade 3 leak NOS",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 117 ---
-{
-  "diagnosis": "",
-  "medications": [
-    "prednisone 10 mg daily",
-    "lasix"
-  ],
-  "lab_values": {
-    "RV/LV ratio": "25% on admission; 28% on floor",
-    "heart rate": "120 bpm",
-    "saturation": "96% on room air"
-  },
-  "confidence": 0.6
-}
-
---- Note 118 ---
-{
-  "diagnosis": "Pancreatic net G2; pancreatic insufficiency",
-  "medications": [
-    "(unspecified medication) 1 capsule PO bid for 3 days"
-  ],
-  "lab_values": {},
-  "confidence": 0.75
-}
-
---- Note 119 ---
-{
-  "diagnosis": "RV failure",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.5
-}
-
---- Note 120 ---
-{
-  "diagnosis": "Recurrent childhood lymphomatoid granulomatosis",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 121 ---
-{
-  "diagnosis": "",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.4
-}
-
---- Note 122 ---
-{
-  "diagnosis": "",
-  "medications": [
-    "antibiotics"
-  ],
-  "lab_values": {},
-  "confidence": 0.5
-}
-
---- Note 123 ---
-{
-  "diagnosis": "Aortic stenosis",
-  "medications": [
-    "(unspecified medication) 1 tablet PO bid for one week"
-  ],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 124 ---
-{
-  "diagnosis": "Abnormal temper tantrums",
-  "medications": [
-    "risperidone"
-  ],
-  "lab_values": {},
-  "confidence": 0.65
-}
-
---- Note 125 ---
-{
-  "diagnosis": "Mycosis fungoides and Sezary syndrome",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 126 ---
-{
-  "diagnosis": "Malignant melanoma of the skin",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 127 ---
-{
-  "diagnosis": "Clinically severe sepsis",
-  "medications": [
-    "(unspecified medication) 1 tablet PO twice a day"
-  ],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 128 ---
-{
-  "diagnosis": "Right hilar mass",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 129 ---
-{
-  "diagnosis": "Adenocarcinoma of the lung",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 130 ---
-{
-  "diagnosis": "Invasive non-typhoidal salmonellosis",
-  "medications": [
-    "vanco",
-    "cefepime",
-    "ceftriaxone"
-  ],
-  "lab_values": {
-    "CD4 count": "120"
-  },
-  "confidence": 0.75
-}
-
---- Note 131 ---
-{
-  "diagnosis": "Injury of oculomotor nerve; Fracture of the left humeral head; 1st degree AV block",
-  "medications": [
-    "(unspecified medication) 1 tablet PO bid for 10 days"
-  ],
-  "lab_values": {},
-  "confidence": 0.65
-}
-
---- Note 132 ---
-{
-  "diagnosis": "Herpes simplex",
-  "medications": [
-    "acyclovir"
-  ],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 133 ---
-{
-  "diagnosis": "Hypokalemia",
-  "medications": [
-    "warfarin",
-    "antibiotics",
-    "pain medication",
-    "platelet transfusions",
-    "iron supplements",
-    "calcium supplements"
-  ],
-  "lab_values": {
-    "platelet count": "low",
-    "calcium level": "low"
-  },
-  "confidence": 0.6
-}
-
---- Note 134 ---
-{
-  "diagnosis": "Chest pain",
-  "medications": [],
-  "lab_values": {
-    "Temperature": "97.8",
-    "Heart Rate": "112",
-    "Respiratory Rate": "26",
-    "Blood Pressure": "138/80"
-  },
-  "confidence": 0.6
-}
-
---- Note 135 ---
-{
-  "diagnosis": "Dysplasia of rectum",
-  "medications": [
-    "(unspecified medication) 1 tablet PO daily for 1 week"
-  ],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 136 ---
-{
-  "diagnosis": "Recurrent laryngeal intra-operative injury",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 137 ---
-{
-  "diagnosis": "Left ventricular systolic dysfunction; Aortic stenosis; Aortic valve regurgitation; Mild mitral regurgitation; Mild tricuspid regurgitation; Mild pulmonary artery stenosis",
-  "medications": [],
-  "lab_values": {
-    "Pulmonary artery systolic pressure": "87 mmHg"
-  },
-  "confidence": 0.8
-}
-
---- Note 138 ---
-{
-  "diagnosis": "Respiratory failure",
-  "medications": [
-    "intravenous ribavirin",
-    "steroids"
-  ],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 139 ---
-{
-  "diagnosis": "Hypoplastic hippocampus",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 140 ---
-{
-  "diagnosis": "Asthma exacerbation",
-  "medications": [
-    "prednisone",
-    "albuterol"
-  ],
-  "lab_values": {
-    "fever": "102.5"
-  },
-  "confidence": 0.6
-}
-
---- Note 141 ---
-{
-  "diagnosis": "Hypertension",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 142 ---
-{
-  "diagnosis": "Chronic lymphocytic leukemia (CLL), CTCAE grade 5 blood infection, sepsis, renal cell carcinoma, right hip fracture",
-  "medications": [],
-  "lab_values": {
-    "WBC": "1.3",
-    "RBC": "1.89*",
-    "HGB": "7.6*",
-    "HCT": "2"
-  },
-  "confidence": 0.6
-}
-
---- Note 143 ---
-{
-  "diagnosis": "Left anterior cerebral artery occlusion",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.5
-}
-
---- Note 144 ---
-{
-  "diagnosis": "Phosphaturic mesenchymal tumour, benign",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 145 ---
-{
-  "diagnosis": "Pertussis",
-  "medications": [
-    "azt",
-    "pi's",
-    "iv antibiotics"
-  ],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 146 ---
-{
-  "diagnosis": "Right upper lobe consolidation; CTCAE grade 4 bronchus infection; right inguinal hernia",
-  "medications": [
-    "broad-spectrum antibiotics",
-    "IV fluids"
-  ],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 147 ---
-{
-  "diagnosis": "Sickle cell disease",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 148 ---
-{
-  "diagnosis": "Posterior subcapsular cataract grade 3",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 149 ---
-{
-  "diagnosis": "Pancreatic acinar cell carcinoma",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.8
-}
-
---- Note 150 ---
-{
-  "diagnosis": "Pleural mesothelioma",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 151 ---
-{
-  "diagnosis": "New onset atrial fibrillation; new onset pneumonia; left lower quadrant pain; CTCAE grade 5 CN III pupil, upper eyelid, extra ocular movements neuropathy",
-  "medications": [
-    "Coumadin",
-    "Zosyn",
-    "Azithromycin"
-  ],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 152 ---
-{
-  "diagnosis": "In utero hypoxia / fetal distress",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 153 ---
-{
-  "diagnosis": "Left ovarian cyst",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 154 ---
-{
-  "diagnosis": "Possible hormone resistance",
-  "medications": [
-    "oral steroid",
-    "antibiotics"
-  ],
-  "lab_values": {
-    "WBC": "increased on postoperative day 3; decreasing by postoperative day 4"
-  },
-  "confidence": 0.6
-}
-
---- Note 155 ---
-{
-  "diagnosis": "Sepsis",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 156 ---
-{
-  "diagnosis": "Hepatocellular carcinoma",
-  "medications": [
-    "ribavirin",
-    "interferon-alpha-2a"
-  ],
-  "lab_values": {},
-  "confidence": 0.75
-}
-
---- Note 157 ---
-{
-  "diagnosis": "",
-  "medications": [],
-  "lab_values": {
-    "alkaline phosphatase": "low of hepatic origin"
-  },
-  "confidence": 0.6
-}
-
---- Note 158 ---
-{
-  "diagnosis": "Familial colorectal cancer type X",
-  "medications": [
-    "Proton pump inhibitor",
-    "Chemotherapy"
-  ],
-  "lab_values": {},
-  "confidence": 0.8
-}
-
---- Note 159 ---
-{
-  "diagnosis": "Grade 5 osteonecrosis",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 160 ---
-{
-  "diagnosis": "Severe episode of hypoglycemia",
-  "medications": [
-    "50 cc of 100% dextrose"
-  ],
-  "lab_values": {
-    "glucose": "47"
-  },
-  "confidence": 0.6
-}
-
---- Note 161 ---
-{
-  "diagnosis": "Pneumocystis jirovecii pneumonia",
-  "medications": [
-    "trimethoprim-sulfamethoxazole"
-  ],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 162 ---
-{
-  "diagnosis": "Metastatic squamous cell carcinoma consistent with nasopharyngeal cancer",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 163 ---
-{
-  "diagnosis": "Retinal vein occlusion",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 164 ---
-{
-  "diagnosis": "Right renal cell carcinoma",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 165 ---
-{
-  "diagnosis": "laryngeal verrucous carcinoma",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.8
-}
-
---- Note 166 ---
-{
-  "diagnosis": "Right humeral shaft fracture with subtle subluxation of the proximal humeral epiphysis; right radial head subluxation; congenital abnormality of the proximal humeral epiphysis",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 167 ---
-{
-  "diagnosis": "Hypothyroidism",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 168 ---
-{
-  "diagnosis": "",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.4
-}
-
---- Note 169 ---
-{
-  "diagnosis": "Chronic eosinophilic leukemia, not otherwise specified",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 170 ---
-{
-  "diagnosis": "Ovarian mucinous cystadenoma with proliferating activity",
-  "medications": [
-    "blood pressure medication",
-    "thyroid medication",
-    "anti-seizure medication",
-    "blood thinner medication",
-    "pain medication"
-  ],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 171 ---
-{
-  "diagnosis": "Spondyloperipheral dysplasia with short ulna syndrome",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.75
-}
-
---- Note 172 ---
-{
-  "diagnosis": "Lithium induced birth defect",
-  "medications": [
-    "Lamictal 200 mg twice a day",
-    "Valproate 250 mg twice a day"
-  ],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 173 ---
-{
-  "diagnosis": "",
-  "medications": [],
-  "lab_values": {
-    "EKG": "tachycardia, sinus; no ST changes",
-    "ECHO": "no mitral regurgitation; no pericardial effusion; mild mitral annular calcification; no mitral valve prolapse; no aortic root dilatation; no aortic regurgitation; no pulmonic valve regurgitation; no ASD or PFO; no chamber enlargement; no aortic valve thickening; no pulmonic valve stenosis; no tricuspid valve stenosis; no mitral valve stenosis"
-  },
-  "confidence": 0.6
-}
-
---- Note 174 ---
-{
-  "diagnosis": "Myocardial failure",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 175 ---
-{
-  "diagnosis": "Chronic obstructive pulmonary disease",
-  "medications": [
-    "(unspecified medication) 1 tablet PO bid"
-  ],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 176 ---
-{
-  "diagnosis": "Asphyxiating thoracic dystrophy",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 177 ---
-{
-  "diagnosis": "Recurrent desmoid tumor",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 178 ---
-{
-  "diagnosis": "CTCAE grade 2 jejunum infection with unknown ANC",
-  "medications": [
-    "(unspecified medication) 1 tablet PO bid x7 days"
-  ],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 179 ---
-{
-  "diagnosis": "Hodgkin's lymphoma",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 180 ---
-{
-  "diagnosis": "Chronic graft versus host disease (GVHD)",
-  "medications": [],
-  "lab_values": {},
-  "confidence": 0.6
-}
-
---- Note 181 ---
-{
-  "diagnosis": "",
-  "medications": [],
-  "lab_values": {
-    "Vital Signs": "97.2\u00b0F, 118/88 mmHg, 18 breaths/min, 99%"
-  },
-  "confidence": 0.5
+  "confidence": 0.7
 }
 
